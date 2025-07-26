@@ -35,12 +35,11 @@ lerna-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# dotenv environment variable files
+# Ignore real environment files
 .env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+
+# Don't ignore .env.sample
+!.env.sample
 
 # temp directory
 .temp
